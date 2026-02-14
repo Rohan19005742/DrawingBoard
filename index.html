@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Magic Drawing Board</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <canvas id="board" aria-label="Drawing board"></canvas>
+      <canvas id="previewLayer" aria-hidden="true"></canvas>
+    </main>
+
+    <div id="uiLayer" aria-hidden="false">
+      <p id="statusMessage" aria-live="polite"></p>
+    </div>
+
+    <button id="deleteButton" type="button" aria-label="Delete drawing">
+      Delete Drawing
+    </button>
+
+    <div
+      id="secretRestoreButton"
+      aria-hidden="true"
+      title=""
+    ></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
