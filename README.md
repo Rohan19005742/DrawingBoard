@@ -8,7 +8,7 @@ Minimal mobile-first drawing board web app.
 - Fixed brush: black, medium thickness
 - `Delete Drawing` button:
 	- Tap to clear the drawing (restorable)
-	- Hold for 3 seconds to permanently delete (not restorable)
+	- Hold for 2 seconds to permanently delete (not restorable)
 - Invisible secret area (top-left):
 	- Press and hold to temporarily reveal the last deleted drawing
 	- Release to hide it again
